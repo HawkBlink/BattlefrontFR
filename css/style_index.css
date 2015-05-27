@@ -1,0 +1,51 @@
+body {
+    margin-top: 50px;
+    background: url("images/battlefond.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+aside
+{
+
+}
+
+.jumbotron{
+    background: none;
+    color: white;
+    text-align: center;
+}
+
+#twitt
+{
+    margin-top: 50px;
+    color: black;
+}
+
+#fb
+{
+    color: black;
+}
+#block_page
+{
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+
+section
+{
+    background-color: none;
+    color: black;
+    padding: 1%;
+    text-align: justify;
+
+}
+
+article
+{
+    background-color: white;
+    border: solid;
+    padding: 1%;
+    margin-bottom: 1%;
+}
