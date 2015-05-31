@@ -1,6 +1,6 @@
 body {
     margin-top: 50px;
-    background: url("images/battlefond.png") no-repeat center fixed;
+    background: url("images/battlefond.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
@@ -11,8 +11,9 @@ aside
 
 .jumbotron{
     background: none;
-    color: white;
+    color: black;
     text-align: center;
+    border-bottom: double 5px ;
 }
 
 #twitt
@@ -30,6 +31,7 @@ aside
 
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
+    margin: 50px;
 }
 
 
@@ -42,10 +44,17 @@ section
 
 }
 
-article
+p
 {
-    background-color: white;
-    border: solid;
-    padding: 1%;
-    margin-bottom: 1%;
+    font-size: large;
+    text-align: justify;
 }
+ article
+ {
+     background-color: rgba(255, 255, 255, 0.9);
+     border: solid;
+     border-radius: 15px;
+     border: none;
+     margin: 30px;
+     padding: 10px;
+ }

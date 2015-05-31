@@ -12,7 +12,7 @@
         <!-- image 1-->
         <div class="item active">
             <!-- Image 1-->
-            <img src="css/images/banniere.jpg" style="width: 100%" class="img-responsive">
+            <img src="css/images/battlefond.png" style="width: 100%" class="img-responsive">
             <!-- Image 1-->
             <div class="container">
 
@@ -27,7 +27,7 @@
         <!-- image 2-->
         <div class="item">
             <!-- Image 2-->
-            <img src="css/images/url.jpg" style="width: 100%" class="img-responsive">
+            <img src="css/images/battlefond.png" style="width: 100%" class="img-responsive">
             <!-- Image 2-->
             <div class="container">
                 <div class="carousel-caption">
@@ -38,7 +38,7 @@
         <!-- image 3-->
         <div class="item">
             <!-- Image 3-->
-            <img src="css/images/url2.jpg" style="width: 100%" class="img-responsive">
+            <img src="css/images/battlefond.png" style="width: 100%" class="img-responsive">
             <!-- Image 3-->
             <div class="container">
                 <div class="carousel-caption">

@@ -9,14 +9,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" rel="home" href="#" title="Securoute Maache"><img style="max-width: 70px; margin-top: -7px;" src="css/images/logo_secu.png"></a>
+            <a class="navbar-brand" rel="home" href="#" title="Securoute Maache">BattlefrontFR</a>
         </div>
         <!-- Adaptation pour les mobiles -->
         <!-- navbar avec un dropdown à modifier -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a class="fa fa-home" href="index.php"> Accueil</a></li>
-                <li class="border"><a class="fa fa-th-list" href="tableau_form.php"> Nos Adhérents</a></li>
+                <li class="border"><a class="fa fa-th-list" href="article.php"> article</a></li>
                 <!-- Début du dropdown -->
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="fa fa-align-left"></span> Des explications ?<span class="caret"></span></a>
