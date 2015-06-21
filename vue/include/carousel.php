@@ -12,14 +12,14 @@
         <!-- image 1-->
         <div class="item active">
             <!-- Image 1-->
-            <img src="css/images/battlefond.png" style="width: 100%" class="img-responsive">
+            <img src="http://localhost/Battlefront/vue/css/images/battlefond.png" style="width: 100%" class="img-responsive">
             <!-- Image 1-->
             <div class="container">
 
                 <div class="carousel-caption">
                     <!-- HTML-->
                     <h1>vous voulez savoir plus ?</h1>
-                    <p><a class="btn btn-lg btn-danger" href="presentation.php">Présentation</a></p>
+                    <p><a class="btn btn-lg btn-danger" href="#">Présentation</a></p>
                     <!-- HTML -->
                 </div>
             </div>
@@ -27,7 +27,7 @@
         <!-- image 2-->
         <div class="item">
             <!-- Image 2-->
-            <img src="css/images/battlefond.png" style="width: 100%" class="img-responsive">
+            <img src="http://localhost/Battlefront/vue/css/images/battlefond.png" style="width: 100%" class="img-responsive">
             <!-- Image 2-->
             <div class="container">
                 <div class="carousel-caption">
@@ -38,7 +38,7 @@
         <!-- image 3-->
         <div class="item">
             <!-- Image 3-->
-            <img src="css/images/battlefond.png" style="width: 100%" class="img-responsive">
+            <img src="http://localhost/Battlefront/vue/css/images/battlefond.png" style="width: 100%" class="img-responsive">
             <!-- Image 3-->
             <div class="container">
                 <div class="carousel-caption">
