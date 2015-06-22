@@ -8,7 +8,7 @@ $mail = htmlspecialchars(htmlentities($_POST['mail']));
     $em = $bdd->query('SELECT email FROM membres');
 
         // On lit toutes les données de la table grâce à une boucle
-        while ($donneesEm = $em->fetch())
+        while($donneesEm = $em->fetch())
         {
         //On test chaque données email : Si l'email reçus et le même qu'un email dans la table
             if ($donneesEm['email'] == $mail)
@@ -16,13 +16,14 @@ $mail = htmlspecialchars(htmlentities($_POST['mail']));
                 //alors verif vaut 0
                 $verif = 0;
                 //Erreurmail vaut 1
-                $erreurmail = 0;
+                $erreurmail = 1;
 
             }
                 else
                 {
                     //Si non vaut 0
-                    $erreurmail = 1;}
+                    $erreurmail = 0;
+                }
         }
 
     //On ferme la requête
