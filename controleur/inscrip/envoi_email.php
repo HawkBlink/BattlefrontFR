@@ -2,7 +2,7 @@
 include_once('PHPMailer/class.phpmailer.php');
 
 $mail = new PHPMailer();
-$mail->Host = 'smtp.domaine.fr';
+$mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth   = true;
 $mail->Port = 25; // Par défaut
 $mail->CharSet = "utf-8";
