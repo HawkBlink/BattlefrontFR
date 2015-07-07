@@ -16,12 +16,12 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a class="fa fa-home" href="http://battlefrontfr.esy.es/index.php"> Accueil</a></li>
-                <li class="border"><a class="fa fa-th-list" href="http://battlefrontfr.esy.es/vue/formulaires/inscrip.php"> Inscription</a></li>
+                <li class="border"><a class="fa fa-th-list" href="http://localhost/Battlefront/vue/formulaires/inscrip.php"> Inscription</a></li>
                 <!-- Début du dropdown -->
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="fa fa-align-left"></span> Plus<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu" >
-                        <li><a href=http://battlefrontfr.esy.es/vue/formulaires/form_connexion.php>Connexion</a></li>
+                        <li><a href=http://localhost/battlefront/vue/formulaires/connexion.php>Connexion</a></li>
                         <li><a href="#">On met quoi là ?</a></li>
                         <li><a href="#">Voilà</a></li>
                         <li class="divider"></li>

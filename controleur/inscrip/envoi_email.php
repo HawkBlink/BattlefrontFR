@@ -1,19 +1,27 @@
 <?php
-include_once('PHPMailer/class.phpmailer.php');
+// Récupération des variables nécessaires au mail de confirmation
+$email = $_POST['mail'];
+$pseudo = $_POST['pseudo'];
+//Generation d'une clée aléatoire.
+$cle1 = md5(microtime(TRUE)*100000);
+    include_once('PHPMailer/class.phpmailer.php');
 
-$mail = new PHPMailer();
-$mail->Host = 'smtp.gmail.com';
-$mail->SMTPAuth   = true;
-$mail->Port = 25; // Par défaut
-$mail->CharSet = "utf-8";
+//information pour l'envoi du mail
+                $mail = new PHPMailer();
+                    $mail->Host = 'smtp.numericable.fr';
+                        $mail->SMTPAuth = false;
+                            $mail->Port = 25; // Par défaut
+                                $mail->CharSet = "utf-8";
 
-// Expéditeur
-$mail->SetFrom('battlefrontfr@battle.com', 'BattlefrontFR');
-// Destinataire
-$mail->AddAddress($_COOKIE['email'], '');
-// Objet
-$mail->Subject = 'BattlefrontFR';
+            // Expéditeur
+            $mail->SetFrom('battlefrontfr@gmail.com', 'BattlefrontFR');
+                // Destinataire
+                $mail->AddAddress($email, '');
+                    // Objet
+                    $mail->Subject = 'Activation BattlefrontFR';
 
-// Votre message
-$mail->MsgHTML('<h1>Inscription à BattlefrontFR</h1><br /><p>Cliquez ici pour activer votre compte -> <a href="#">BattlefrontFR Activation</a> </p>');
+                        // Le message
+                        $mail->MsgHTML('<h1>Activation de votre compte BattlefrontFR</h1><br /><p>Pour activer votre compte, veuillez cliquer sur le lien ci dessous ou copier/coller dans votre navigateur internet -> <a href="http://localhost/Battlefront/modele/validation/validation.php?log='.urlencode($pseudo).'&cle='.urldecode($cle1).'">http://localhost/Battlefront/modele/validation/validation.php?log='.urlencode($pseudo).'&cle='.urldecode($cle1).'</a><br /><br/>
+                                            ---------------<br />
+                                            Ceci est un mail automatique, Merci de ne pas y répondre.</p>');
 

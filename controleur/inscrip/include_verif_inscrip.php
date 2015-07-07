@@ -1,7 +1,7 @@
 <div class="col-lg-6">
     <div id="erreur">
         <?php
-        $_COOKIE['email'];
+
         include_once('../../modele/bdd/co_bdd.php');
             //Inclusion de la page de vérification en php
             include_once('verif.php');

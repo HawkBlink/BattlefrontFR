@@ -1,9 +1,4 @@
-<?php
-if(isset($_POST['mail'])) // Si le formulaire a été envoyé...
-{
-    setcookie('email', $_POST['mail'], time() + 365*24*3600, null, null, false, true); // On créé le cookie, c'est IMPORTANT !
-}
-?>
+
 <!--Dev by HawkBlink twitter = @HawkBlink -> DeadBlink-->
 
 <html>
