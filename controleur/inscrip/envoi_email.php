@@ -21,7 +21,7 @@ $cle1 = md5(microtime(TRUE)*100000);
                     $mail->Subject = 'Activation BattlefrontFR';
 
                         // Le message
-                        $mail->MsgHTML('<h1>Activation de votre compte BattlefrontFR</h1><br /><p>Pour activer votre compte, veuillez cliquer sur le lien ci dessous ou copier/coller dans votre navigateur internet -> <a href="http://localhost/Battlefront/modele/validation/validation.php?log='.urlencode($pseudo).'&cle='.urldecode($cle1).'">http://localhost/Battlefront/modele/validation/validation.php?log='.urlencode($pseudo).'&cle='.urldecode($cle1).'</a><br /><br/>
+                        $mail->MsgHTML('<h1>Activation de votre compte BattlefrontFR</h1><br /><p>Pour activer votre compte, veuillez cliquer sur le lien ci dessous ou copier/coller dans votre navigateur internet -> <a href="http://localhost/Battlefront/modele/validation/validation.php?log='.urlencode($pseudo).'&cle='.urldecode($cle1).'">http://localhost/Battlefront/vue/validation/validation.php?log='.urlencode($pseudo).'&cle='.urldecode($cle1).'</a><br /><br/>
                                             ---------------<br />
                                             Ceci est un mail automatique, Merci de ne pas y répondre.</p>');
 
